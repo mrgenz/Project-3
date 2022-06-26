@@ -24,9 +24,10 @@ library(httr)
 ###############################################
 
 
-datafiles <- list.files(path = "C:\\Users\\aumrge\\Documents\\Coursera\\Course 03 - Getting and Cleaning Data\\Course Project\\Data\\UCI HAR Dataset\\UCI HAR Dataset", 
+datafiles <- list.files(path = "C:/Users/aumrge/Documents/Coursera/Course 03 - Getting and Cleaning Data/Project-3/Project-3/Data/UCI HAR Dataset/UCI HAR Dataset", 
                    recursive = TRUE, full.names = TRUE) %>%
           .[!str_detect(., "(Signals|README|zip|info|~)")]
+
 
 #################################################
 ##########  location and files names   ########## 
